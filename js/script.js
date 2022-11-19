@@ -15,7 +15,7 @@ menuIcon.addEventListener('click', () => {
 // Toggle Menu Icon ========================================
 let toggleIcon = document.querySelector('.menuIcon');
 
-toggleIcon.addEventListener('click', () => {
+toggleIcon.addEventListener('click', () => { 
     if (toggleIcon.className != 'menuIcon toggle') {
         toggleIcon.className += ' toggle';
     } else {
