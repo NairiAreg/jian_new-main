@@ -282,7 +282,8 @@ ul {
 }
 
 .logo > a:hover {
-  color: white;
-  text-decoration: underline;
+  color: black;
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 30%);
+    transition: 0.5s;
 }
 /*# sourceMappingURL=main.css.map */
