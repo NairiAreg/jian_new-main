@@ -32,6 +32,7 @@
   height: 80%;
   width: 100%;
   background-size: contain !important;
+  cursor: pointer;
 }
 
 .col-12 .miniContainer .bottom {
@@ -118,6 +119,7 @@
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
   color: #00394b;
+  cursor: pointer;
 }
 
 .col-12 .miniContainer .bottom .right {
@@ -216,6 +218,7 @@
 .col-12 .miniContainer .bottom .right:hover .done {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
+          cursor: pointer;
 }
 
 .col-12 .inside {
