@@ -1,6 +1,7 @@
 let menuIcon = document.querySelector('.menuIcon');
 let nav = document.querySelector('.overlay-menu');
 
+
 menuIcon.addEventListener('click', () => {
     if (nav.style.transform != 'translateX(0%)') {
         nav.style.transform = 'translateX(0%)';
@@ -15,7 +16,7 @@ menuIcon.addEventListener('click', () => {
 // Toggle Menu Icon ========================================
 let toggleIcon = document.querySelector('.menuIcon');
 
-toggleIcon.addEventListener('click', () => { 
+toggleIcon.addEventListener('click', () => {
     if (toggleIcon.className != 'menuIcon toggle') {
         toggleIcon.className += ' toggle';
     } else {
@@ -61,7 +62,7 @@ $(function () {
 
     let uniqueBrands = [];
     fetch("./products.json")
-        .then(response => {
+        .then(response => {  
             return response.json();
         })
         .then(jsondata => {
@@ -81,7 +82,7 @@ $(function () {
                             <div class="left">
                                 <div class="details">
                                     <h1>${e.title}</h1>
-                                    <p>4.300֏ - 15.500֏</p>
+                                    <p>3.800֏ - 13.000֏</p>
                                 </div>
                                 <div class="buy"><i class="fa fa-cart-plus"></i></div>
                             </div>
@@ -92,7 +93,7 @@ $(function () {
                                 </div>
                                 <div class="details">
                                     <h1>${e.title}</h1>
-                                    <p>4.300֏ - 15.500֏</p>
+                                    <p>3.800֏ - 13.000֏</p>
                                 </div>
                             </div>
                         </div>
@@ -111,13 +112,13 @@ $(function () {
                                     <th>Չոր - 15ml/25ml/35ml</th>
                                 </tr>
                                 <tr>
-                                    <td>4.300֏/7.000֏/8.000֏</td>
+                                    <td>3.800֏/6.000֏/7.500֏</td>
                                 </tr>
                                 <tr>
-                                    <th>Կաթնային 20ml/35ml/60ml</th>
+                                    <th>Կաթնային 17ml/35ml/60ml</th>
                                 </tr>
                                 <tr>
-                                    <td>6.000֏/9.000֏/15.500֏</td>
+                                    <td>4.000֏/8.000֏/13.000֏</td>
                                 </tr>
                                 <tr>
                                     <th>ID</th>
@@ -178,3 +179,12 @@ $(function () {
     })
 
 });
+
+let victorinaForm = document.querySelector('#victorina').elements
+// console.log(victorinaForm[0]);
+let handleSubmit = (e) => {
+    console.log(victorinaForm[0].value);
+}
+
+victorinaForm[1].addEventListener('click', handleSubmit)
+victorinaForm.addEventListener('submit', handleSubmit)
