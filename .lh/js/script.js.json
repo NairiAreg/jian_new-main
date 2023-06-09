@@ -1,0 +1,602 @@
+{
+    "sourceFile": "js/script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 146,
+            "patches": [
+                {
+                    "date": 1686265262004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686265267563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n-    \r\n+    victorinaForm[0].\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n"
+                },
+                {
+                    "date": 1686265293722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,10 +182,11 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n+    \r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm[0].\r\n+    victorinaForm[0].reset()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n"
+                },
+                {
+                    "date": 1686265298849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    \r\n+    victorinaForm.prevent\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].reset()\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265310744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,12 +179,12 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina').elements\r\n+let victorinaForm = document.querySelector('#victorina').element\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    victorinaForm.prevent\r\n+    victorinaForm.preventDefault\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].reset()\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265460184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,14 +179,14 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina').element\r\n+let victorinaForm = document.querySelector('#victorina')\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    victorinaForm.preventDefault\r\n+    victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].reset()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n-victorinaForm.addEventListener('submit', handleSubmit)\r\n+victor\r\n"
+                },
+                {
+                    "date": 1686265473339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,14 +179,14 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina')\r\n+let victorinaForm = document.querySelector('#victorina').\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].reset()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n-victor\r\n+\r\n"
+                },
+                {
+                    "date": 1686265496916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,12 +179,12 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina').\r\n+let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    victorinaForm.preventDefault()\r\n+    // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].reset()\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265513373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm[0].reset()\r\n+    victorinaForm[0].resetF()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265522038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm[0].resetF()\r\n+    // victorinaForm[0].resetForm()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265561263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    // victorinaForm[0].resetForm()\r\n+    victorinaForm[0].resetForm()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265580075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm[0].resetForm()\r\n+    victorinaForm.resetFor()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265596194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm.resetFor()\r\n+    victorinaForm..reset()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265613089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm..reset()\r\n+    .reset()\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265618211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    .reset()\r\n+    console.log();\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265629108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log();\r\n+    console.log(victorinaForm.parent());\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265641474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log(victorinaForm.parent());\r\n+    console.log(victorinaForm.parent();\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265652780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log(victorinaForm.parent();\r\n+    console.log(victorinaForm.parentElemen);\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265676059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log(victorinaForm.parentElemen);\r\n+    console.log(victorinaForm[]);\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265687082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log(victorinaForm[]);\r\n+    console.log(victorinaForm[0]).;\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265704713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log(victorinaForm[0]).;\r\n+    console.log(;\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265713518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,11 +182,11 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    // victorinaForm.preventDefault()\r\n+    K// victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    console.log(;\r\n+    \r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265718775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,11 +182,10 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    K// victorinaForm.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n-    \r\n+    victorinaForm[0]).value\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265724971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm[0]).value\r\n+    victorinaForm[0].value = \r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265739167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n-    victorinaForm[0].value = \r\n+    victorinaForm[0].value = ''\r\n }\r\n \r\n victorinaForm[1].addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686265784008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,8 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n+    \r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265789683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    \r\n+    e.preventD\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265805886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    e.preventD\r\n+    e\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265822530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    e\r\n+    \r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265827709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    \r\n+    let form\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265832969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form\r\n+    let form = document.\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265838426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.\r\n+    let form = document.getElementById('v')\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265843494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('v')\r\n+    let form = document.getElementById('victorina')\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265848898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina')\r\n+    let form = document.getElementById('victorina').ad\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265854521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina').ad\r\n+    let form = document.getElementById('victorina')?.addEventListener('')\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265860784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina')?.addEventListener('')\r\n+    let form = document.getElementById('victorina')?.addEventListener('submit',)\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265871961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,11 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina')?.addEventListener('submit',)\r\n+    let form = document.getElementById('victorina')?.addEventListener('submit', (e) => {\r\n+\r\n+    })\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686265879870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,10 +182,10 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina')?.addEventListener('submit', (e) => {\r\n-\r\n+    let form = document.getElementById('victorina')?.addEventListener('submit', (ev) => {\r\n+        e\r\n     })\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686265885212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     let form = document.getElementById('victorina')?.addEventListener('submit', (ev) => {\r\n-        e\r\n+        ev.preventDefault'(=)\r\n     })\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686265893712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,10 +182,10 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina')?.addEventListener('submit', (ev) => {\r\n-        ev.preventDefault'(=)\r\n+    let form = document.getElementById('victorina').addEventListener('submit', (ev) => {\r\n+        ev.preventDefault()\r\n     })\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686265942314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina').addEventListener('submit', (ev) => {\r\n+    let form = document.getElementById('victorina').addEventListener('c', (ev) => {\r\n         ev.preventDefault()\r\n     })\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n"
+                },
+                {
+                    "date": 1686265942385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina').addEventListener('c', (ev) => {\r\n+    let form = document.getElementById('victorina').addEventListener('cl', (ev) => {\r\n         ev.preventDefault()\r\n     })\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n"
+                },
+                {
+                    "date": 1686266003860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,11 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    let form = document.getElementById('victorina').addEventListener('cl', (ev) => {\r\n-        ev.preventDefault()\r\n-    })\r\n+   \r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266061060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-   \r\n+    \r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266066560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    \r\n+    e.curretT\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266073732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    e.curretT\r\n+    e.currentTarget.\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266079144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    e.currentTarget.\r\n+    e.currentTarget.preventDef\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266079206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    e.currentTarget.preventDef\r\n+    e.currentTarget.preventDefa\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266098829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n-    e.currentTarget.preventDefa\r\n+    // e.currentTarget.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266114047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,8 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n+    \r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266119472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    \r\n+    console.log(e.currentTarget);\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266132264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    console.log(e.currentTarget);\r\n+    console.log(e.currentTarget.);\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266142241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    console.log(e.currentTarget.);\r\n+    console.log(e.currentTarget.paren);\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266161980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    console.log(e.currentTarget.paren);\r\n+    console.log(e.currentTarget.p);\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266162032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    console.log(e.currentTarget.p);\r\n+    console.log(e.currentTarget.pa);\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266187832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    console.log(e.currentTarget.pa);\r\n+    console.log();\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266194554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    console.log();\r\n+    e.currentTarget.parentElement.\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266201797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    e.currentTarget.parentElement.\r\n+    e.currentTarget.parentElement.preven\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266298947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    e.currentTarget.parentElement.preven\r\n+    e.currentTarget.parentElement.preventDefault()K\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686266362941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,11 +183,10 @@\n let victorinaForm = document.querySelector('#victorina').elements\r\n // console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n-    e.currentTarget.parentElement.preventDefault()K\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm[1].addEventListener('click', handleSubmit)\r\n+victorinaForm[1.addEventListener('click', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266368533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,6 +187,6 @@\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm[1.addEventListener('click', handleSubmit)\r\n+victorinaForm.addEventListener('submi', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266374338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,6 +187,6 @@\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm.addEventListener('submi', handleSubmit)\r\n+victorinaForm..addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266390888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,6 +187,6 @@\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm..addEventListener('submit', handleSubmit)\r\n+victorinaForm.parentElement.addEventListener('o', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266914095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,13 +180,12 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n-// console.log(victorinaForm[0]);\r\n let handleSubmit = (e) => {\r\n     // e.currentTarget.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm.parentElement.addEventListener('o', handleSubmit)\r\n+victorinaForm.parentElement.addEventListener('onsubmit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266920635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,11 +181,10 @@\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina').elements\r\n let handleSubmit = (e) => {\r\n-    // e.currentTarget.preventDefault()\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm.parentElement.addEventListener('onsubmit', handleSubmit)\r\n+victorinaForm.parentElement.addEventListener('osubmit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266960646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,12 +179,12 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina').elements\r\n+let victorinaForm = document.querySelector('#victorina').element\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm.parentElement.addEventListener('osubmit', handleSubmit)\r\n+victorinaForm.parentElement.addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266968641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,12 +179,12 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina').element\r\n+let victorinaForm = document.querySelector('#victorina')\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm.parentElement.addEventListener('submit', handleSubmit)\r\n+victorinaForm.parentElementaddEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686266976060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,11 +180,12 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n+\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n-victorinaForm.parentElementaddEventListener('submit', handleSubmit)\r\n+victorinaForm.addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686267008497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-\r\n+l\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267013937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-l\r\n+let victorinaInput \r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267019258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput \r\n+let victorinaInput = document.getElementById\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267024425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.getElementById\r\n+let victorinaInput = document.g\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267029708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.g\r\n+let victorinaInput = document.qu\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267034886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.qu\r\n+let victorinaInput = document.querySelector('#')\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267040137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.querySelector('#')\r\n+let victorinaInput = document.querySelector('#victorinaIno')\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267040203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.querySelector('#victorinaIno')\r\n+let victorinaInput = document.querySelector('#victorinaInou')\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n }\r\n"
+                },
+                {
+                    "date": 1686267058732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,12 +180,13 @@\n \r\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.querySelector('#victorinaInou')\r\n+let victorinaInput = document.querySelector('#victorinaInput')\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaForm[0].value);\r\n     victorinaForm[0].value = ''\r\n+    victorinaForm[0].value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686267069115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,11 +182,10 @@\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n let handleSubmit = (e) => {\r\n-    console.log(victorinaForm[0].value);\r\n+    console.log(victorinaForm[0.value);\r\n     victorinaForm[0].value = ''\r\n-    victorinaForm[0].value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686267074871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n let handleSubmit = (e) => {\r\n-    console.log(victorinaForm[0.value);\r\n+    console.log(victorinaInput.value);\r\n     victorinaForm[0].value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n"
+                },
+                {
+                    "date": 1686267079970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n let handleSubmit = (e) => {\r\n     console.log(victorinaInput.value);\r\n-    victorinaForm[0].value = ''\r\n+    victorinaFor.value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686267109336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,10 +182,11 @@\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n let handleSubmit = (e) => {\r\n+    \r\n     console.log(victorinaInput.value);\r\n-    victorinaFor.value = ''\r\n+    victorinaInput.value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n \r\n"
+                },
+                {
+                    "date": 1686267114819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,9 +182,9 @@\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n let handleSubmit = (e) => {\r\n-    \r\n+    e.prevent\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686267171305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,10 +181,11 @@\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n+\r\n let handleSubmit = (e) => {\r\n-    e.prevent\r\n+    e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686267176466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n-\r\n+let victorinaButton =\r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n"
+                },
+                {
+                    "date": 1686267182174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,10 @@\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n-let victorinaButton =\r\n+let victorinaButton = document\r\n+\r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n"
+                },
+                {
+                    "date": 1686267188708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n });\r\n \r\n let victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n-let victorinaButton = document\r\n+let victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267194145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,5 +190,5 @@\n     victorinaInput.value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n-\r\n+v\r\n"
+                },
+                {
+                    "date": 1686267194269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,5 +190,5 @@\n     victorinaInput.value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n-v\r\n+vi\r\n"
+                },
+                {
+                    "date": 1686267199556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,5 +190,5 @@\n     victorinaInput.value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n-vi\r\n+victorinaButton?.addEventListener(``)\r\n"
+                },
+                {
+                    "date": 1686267205392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,5 +190,5 @@\n     victorinaInput.value = ''\r\n }\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n-victorinaButton?.addEventListener(``)\r\n+victorinaButton?.addEventListener(`click`, handleSubmit)\r\n"
+                },
+                {
+                    "date": 1686267224592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,9 +179,9 @@\n     })\r\n \r\n });\r\n \r\n-let victorinaForm = document.querySelector('#victorina')\r\n+le victorinaForm = document.querySelector('#victorina')\r\n let victorinaInput = document.querySelector('#victorinaInput')\r\n let victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n let handleSubmit = (e) => {\r\n"
+                },
+                {
+                    "date": 1686267230057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,10 +179,10 @@\n     })\r\n \r\n });\r\n \r\n-le victorinaForm = document.querySelector('#victorina')\r\n-let victorinaInput = document.querySelector('#victorinaInput')\r\n+const victorinaForm = document.querySelector('#victorina')\r\n+ victorinaInput = document.querySelector('#victorinaInput')\r\n let victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267235205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,10 +180,10 @@\n \r\n });\r\n \r\n const victorinaForm = document.querySelector('#victorina')\r\n- victorinaInput = document.querySelector('#victorinaInput')\r\n-let victorinaButton = document.querySelector('#victorinaButton')\r\n+const victorinaInput = document.querySelector('#victorinaInput')\r\n+l victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267670792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,10 +181,11 @@\n });\r\n \r\n const victorinaForm = document.querySelector('#victorina')\r\n const victorinaInput = document.querySelector('#victorinaInput')\r\n-l victorinaButton = document.querySelector('#victorinaButton')\r\n+const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n+\r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n"
+                },
+                {
+                    "date": 1686267670877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,8 +184,9 @@\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n \r\n+\r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n"
+                },
+                {
+                    "date": 1686267676021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,8 +183,9 @@\n const victorinaForm = document.querySelector('#victorina')\r\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n+fetc\r\n \r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267681217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n const victorinaForm = document.querySelector('#victorina')\r\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n-fetc\r\n+fetch('./vic')\r\n \r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267686411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n const victorinaForm = document.querySelector('#victorina')\r\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n-fetch('./vic')\r\n+fetch('./victorinaCodes.js')\r\n \r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267686497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n const victorinaForm = document.querySelector('#victorina')\r\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n-fetch('./victorinaCodes.js')\r\n+fetch('./victorinaCodes.jso')\r\n \r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267692338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,11 +183,11 @@\n const victorinaForm = document.querySelector('#victorina')\r\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n-fetch('./victorinaCodes.jso')\r\n+fetch('./victorinaCodes.json')\r\n+    .then()\r\n \r\n-\r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n"
+                },
+                {
+                    "date": 1686267697940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n fetch('./victorinaCodes.json')\r\n-    .then()\r\n+    .then(respo)\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267706116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,11 @@\n const victorinaInput = document.querySelector('#victorinaInput')\r\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n fetch('./victorinaCodes.json')\r\n-    .then(respo)\r\n+    .then(response => {\r\n+        r\r\n+    })\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267712715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,9 +185,9 @@\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n-        r\r\n+        return resp\r\n     })\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267712831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,9 +185,9 @@\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n-        return resp\r\n+        return respo\r\n     })\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267718388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,10 +185,11 @@\n const victorinaButton = document.querySelector('#victorinaButton')\r\n \r\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n-        return respo\r\n+        return response.json()\r\n     })\r\n+    \r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267724821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,9 +187,9 @@\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n         return response.json()\r\n     })\r\n-    \r\n+    .then(c)\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267729950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,9 +187,9 @@\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n         return response.json()\r\n     })\r\n-    .then(c)\r\n+    .then(victori)\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267741635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,9 +187,9 @@\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n         return response.json()\r\n     })\r\n-    .then(victori)\r\n+    .then(victorinaData.jso)\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267741733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,9 +187,9 @@\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n         return response.json()\r\n     })\r\n-    .then(victorinaData.jso)\r\n+    .then(victorinaData.js)\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n"
+                },
+                {
+                    "date": 1686267762759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,14 +187,17 @@\n fetch('./victorinaCodes.json')\r\n     .then(response => {\r\n         return response.json()\r\n     })\r\n-    .then(victorinaData.js)\r\n+    .then(victorinaData => {\r\n \r\n+    })\r\n+\r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n     console.log(victorinaInput.value);\r\n     victorinaInput.value = ''\r\n }\r\n+}\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n victorinaButton?.addEventListener(`click`, handleSubmit)\r\n"
+                },
+                {
+                    "date": 1686267769040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -188,9 +188,9 @@\n     .then(response => {\r\n         return response.json()\r\n     })\r\n     .then(victorinaData => {\r\n-\r\n+        \r\n     })\r\n \r\n let handleSubmit = (e) => {\r\n     e.preventDefault()\r\n"
+                },
+                {
+                    "date": 1686267785419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,14 +190,13 @@\n     })\r\n     .then(victorinaData => {\r\n         \r\n     })\r\n+    let handleSubmit = (e) => {\r\n+        e.preventDefault()\r\n+        console.log(victorinaInput.value);\r\n+        victorinaInput.value = ''\r\n+    }\r\n \r\n-let handleSubmit = (e) => {\r\n-    e.preventDefault()\r\n-    console.log(victorinaInput.value);\r\n-    victorinaInput.value = ''\r\n-}\r\n-}\r\n \r\n victorinaForm.addEventListener('submit', handleSubmit)\r\n victorinaButton?.addEventListener(`click`, handleSubmit)\r\n"
+                },
+                {
+                    "date": 1686267798215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,85 +1,119 @@\n-let menuIcon = document.querySelector('.menuIcon');\r\n-let nav = document.querySelector('.overlay-menu');\r\n+let menuIcon = document.querySelector(\".menuIcon\");\r\n+let nav = document.querySelector(\".overlay-menu\");\r\n \r\n-\r\n-menuIcon.addEventListener('click', () => {\r\n-    if (nav.style.transform != 'translateX(0%)') {\r\n-        nav.style.transform = 'translateX(0%)';\r\n-        nav.style.transition = 'transform 0.2s ease-out';\r\n-    } else {\r\n-        nav.style.transform = 'translateX(-100%)';\r\n-        nav.style.transition = 'transform 0.2s ease-out';\r\n-    }\r\n+menuIcon.addEventListener(\"click\", () => {\r\n+  if (nav.style.transform != \"translateX(0%)\") {\r\n+    nav.style.transform = \"translateX(0%)\";\r\n+    nav.style.transition = \"transform 0.2s ease-out\";\r\n+  } else {\r\n+    nav.style.transform = \"translateX(-100%)\";\r\n+    nav.style.transition = \"transform 0.2s ease-out\";\r\n+  }\r\n });\r\n \r\n-\r\n // Toggle Menu Icon ========================================\r\n-let toggleIcon = document.querySelector('.menuIcon');\r\n+let toggleIcon = document.querySelector(\".menuIcon\");\r\n \r\n-toggleIcon.addEventListener('click', () => {\r\n-    if (toggleIcon.className != 'menuIcon toggle') {\r\n-        toggleIcon.className += ' toggle';\r\n-    } else {\r\n-        toggleIcon.className = 'menuIcon';\r\n-    }\r\n+toggleIcon.addEventListener(\"click\", () => {\r\n+  if (toggleIcon.className != \"menuIcon toggle\") {\r\n+    toggleIcon.className += \" toggle\";\r\n+  } else {\r\n+    toggleIcon.className = \"menuIcon\";\r\n+  }\r\n });\r\n \r\n $(function () {\r\n-    window.addEventListener('scroll', () => {\r\n-        if (document.querySelector('#header').getBoundingClientRect().bottom - document.querySelector('#header').scrollTop <= 0) {\r\n-            $(\"#navbar\").addClass('navbarScrolled');\r\n-        } else {\r\n-            $(\"#navbar\").removeClass('navbarScrolled');\r\n-        }\r\n-    })\r\n+  window.addEventListener(\"scroll\", () => {\r\n+    if (\r\n+      document.querySelector(\"#header\").getBoundingClientRect().bottom -\r\n+        document.querySelector(\"#header\").scrollTop <=\r\n+      0\r\n+    ) {\r\n+      $(\"#navbar\").addClass(\"navbarScrolled\");\r\n+    } else {\r\n+      $(\"#navbar\").removeClass(\"navbarScrolled\");\r\n+    }\r\n+  });\r\n \r\n-    $('#menu li a').click(() => {\r\n-        $(\".menuIcon.toggle\").click()\r\n-    })\r\n+  $(\"#menu li a\").click(() => {\r\n+    $(\".menuIcon.toggle\").click();\r\n+  });\r\n \r\n-    $('body').on('click', '.buy', function () {\r\n-        $(this).parent().parent().addClass(\"clicked\");\r\n-        if (localStorage.getItem('jianCart')) {\r\n-            localStorage.setItem('jianCart', JSON.stringify(JSON.parse(localStorage.getItem('jianCart')).concat([$(this).parent().parent().parent().parent().data('id')])))\r\n-        } else {\r\n-            localStorage.setItem('jianCart', JSON.stringify([$(this).parent().parent().parent().parent().data('id')]))\r\n-        }\r\n-    });\r\n+  $(\"body\").on(\"click\", \".buy\", function () {\r\n+    $(this).parent().parent().addClass(\"clicked\");\r\n+    if (localStorage.getItem(\"jianCart\")) {\r\n+      localStorage.setItem(\r\n+        \"jianCart\",\r\n+        JSON.stringify(\r\n+          JSON.parse(localStorage.getItem(\"jianCart\")).concat([\r\n+            $(this).parent().parent().parent().parent().data(\"id\"),\r\n+          ])\r\n+        )\r\n+      );\r\n+    } else {\r\n+      localStorage.setItem(\r\n+        \"jianCart\",\r\n+        JSON.stringify([$(this).parent().parent().parent().parent().data(\"id\")])\r\n+      );\r\n+    }\r\n+  });\r\n \r\n-    $('#someProducts [data-id]').each(function (index) {\r\n-        if (localStorage.getItem('jianCart') && JSON.parse(localStorage.getItem('jianCart')).includes($(this).data('id'))) {\r\n-            $(this).find('.bottom').addClass('clicked')\r\n-        }\r\n-    })\r\n+  $(\"#someProducts [data-id]\").each(function (index) {\r\n+    if (\r\n+      localStorage.getItem(\"jianCart\") &&\r\n+      JSON.parse(localStorage.getItem(\"jianCart\")).includes($(this).data(\"id\"))\r\n+    ) {\r\n+      $(this).find(\".bottom\").addClass(\"clicked\");\r\n+    }\r\n+  });\r\n \r\n-    $('body').on('click', '.remove', function () {\r\n-        $(this).parent().parent().parent().removeClass(\"clicked\");\r\n-        let arr = JSON.parse(localStorage.getItem('jianCart'))\r\n-        arr.splice(arr.indexOf($(this).parent().parent().parent().parent().parent().data('id')), 1)\r\n-        localStorage.setItem('jianCart', JSON.stringify(arr))\r\n-        if (window.location.href.indexOf('cart') > -1) $(this).parent().parent().parent().parent().parent().hide()\r\n-    });\r\n+  $(\"body\").on(\"click\", \".remove\", function () {\r\n+    $(this).parent().parent().parent().removeClass(\"clicked\");\r\n+    let arr = JSON.parse(localStorage.getItem(\"jianCart\"));\r\n+    arr.splice(\r\n+      arr.indexOf(\r\n+        $(this).parent().parent().parent().parent().parent().data(\"id\")\r\n+      ),\r\n+      1\r\n+    );\r\n+    localStorage.setItem(\"jianCart\", JSON.stringify(arr));\r\n+    if (window.location.href.indexOf(\"cart\") > -1)\r\n+      $(this).parent().parent().parent().parent().parent().hide();\r\n+  });\r\n \r\n-    let uniqueBrands = [];\r\n-    fetch(\"./products.json\")\r\n-        .then(response => {  \r\n-            return response.json();\r\n-        })\r\n-        .then(jsondata => {\r\n-            let content = ``\r\n-            if (window.location.href.indexOf('cart') > -1) {\r\n-                jsondata = jsondata.filter(e => JSON.parse(localStorage.getItem('jianCart')).includes(e.id))\r\n-            }\r\n-            jsondata.map(e => {\r\n-                !uniqueBrands.includes(e.brand) ? uniqueBrands.push(e.brand) : ''\r\n-                content += `\r\n-                <div class=\"col-lg-3 col-md-4 col-sm-6 col-12 p-0\" data-id='${e.id}' data-brand=\"${e.brand}\">\r\n+  let uniqueBrands = [];\r\n+  fetch(\"./products.json\")\r\n+    .then((response) => {\r\n+      return response.json();\r\n+    })\r\n+    .then((jsondata) => {\r\n+      let content = ``;\r\n+      if (window.location.href.indexOf(\"cart\") > -1) {\r\n+        jsondata = jsondata.filter((e) =>\r\n+          JSON.parse(localStorage.getItem(\"jianCart\")).includes(e.id)\r\n+        );\r\n+      }\r\n+      jsondata.map((e) => {\r\n+        !uniqueBrands.includes(e.brand) ? uniqueBrands.push(e.brand) : \"\";\r\n+        content += `\r\n+                <div class=\"col-lg-3 col-md-4 col-sm-6 col-12 p-0\" data-id='${\r\n+                  e.id\r\n+                }' data-brand=\"${e.brand}\">\r\n                     <div class=\"miniContainer p-0\">\r\n                         <div class=\"top\"\r\n-                            style=\"background: url(img/${e.img}) no-repeat center center;\">\r\n+                            style=\"background: url(img/${\r\n+                              e.img\r\n+                            }) no-repeat center center;\">\r\n                         </div>\r\n-                        <div class=\"bottom ${localStorage.getItem('jianCart') && JSON.parse(localStorage.getItem('jianCart')).includes(e.id) ? 'clicked' : ''}\">\r\n+                        <div class=\"bottom ${\r\n+                          localStorage.getItem(\"jianCart\") &&\r\n+                          JSON.parse(localStorage.getItem(\"jianCart\")).includes(\r\n+                            e.id\r\n+                          )\r\n+                            ? \"clicked\"\r\n+                            : \"\"\r\n+                        }\">\r\n                             <div class=\"left\">\r\n                                 <div class=\"details\">\r\n                                     <h1>${e.title}</h1>\r\n                                     <p>3.800֏ - 13.000֏</p>\r\n@@ -129,74 +163,85 @@\n                             </table>\r\n                         </div>\r\n                     </div>\r\n                 </div>\r\n-                `\r\n-            })\r\n-            $('#products > div > div').html(content)\r\n-            if(jsondata.length == 0){\r\n-                $('#products > div > div').html(`<h1 class=\"py-5 text-center\">Cart is empty</h1>`) \r\n-            }\r\n-            content = ``\r\n-            uniqueBrands.map(brand => {\r\n-                content += `<div class=\"form-group col-lg-3 col-md-4 col-sm-6\">\r\n+                `;\r\n+      });\r\n+      $(\"#products > div > div\").html(content);\r\n+      if (jsondata.length == 0) {\r\n+        $(\"#products > div > div\").html(\r\n+          `<h1 class=\"py-5 text-center\">Cart is empty</h1>`\r\n+        );\r\n+      }\r\n+      content = ``;\r\n+      uniqueBrands.map((brand) => {\r\n+        content += `<div class=\"form-group col-lg-3 col-md-4 col-sm-6\">\r\n                                 <input type=\"checkbox\" id=\"${brand}\" checked>\r\n                                 <label for=\"${brand}\">${brand}</label>\r\n-                            </div>`\r\n-            })\r\n-            $('#filters form').append(content)\r\n+                            </div>`;\r\n+      });\r\n+      $(\"#filters form\").append(content);\r\n \r\n+      return jsondata;\r\n+    });\r\n \r\n-            return jsondata\r\n-        });\r\n+  $(\"#checkAll\").click(function () {\r\n+    $(\"#filters > div > form > div > input\").prop(\"checked\", this.checked);\r\n+    if ($(this).filter(\":checked\").length) {\r\n+      $(\"[data-brand]\").show();\r\n+    } else {\r\n+      $(\"[data-brand]\").hide();\r\n+    }\r\n+  });\r\n \r\n-    $('#checkAll').click(function () {\r\n-        $('#filters > div > form > div > input').prop('checked', this.checked);\r\n-        if ($(this).filter(\":checked\").length) {\r\n-            $(\"[data-brand]\").show()\r\n-        } else {\r\n-            $(\"[data-brand]\").hide()\r\n-        }\r\n-    });\r\n+  $(\"body\").on(\"change\", \"#filters > div > form > div > input\", function () {\r\n+    if ($(this).filter(\":checked\").length) {\r\n+      $(`[data-brand=\"${$(this).parent().find(\"label\").text()}\"]`).show();\r\n+    } else {\r\n+      $(`[data-brand=\"${$(this).parent().find(\"label\").text()}\"]`).hide();\r\n+    }\r\n+    let check =\r\n+      $(\"#filters > div > form > div > input\").filter(\":checked\").length ==\r\n+      $(\"#filters > div > form > div > input\").length;\r\n+    $(\"#checkAll\").prop(\"checked\", check);\r\n+  });\r\n \r\n-    $('body').on('change', '#filters > div > form > div > input', function () {\r\n-        if ($(this).filter(\":checked\").length) {\r\n-            $(`[data-brand=\"${$(this).parent().find(\"label\").text()}\"]`).show()\r\n-        } else {\r\n-            $(`[data-brand=\"${$(this).parent().find(\"label\").text()}\"]`).hide()\r\n-        }\r\n-        let check = ($('#filters > div > form > div > input').filter(\":checked\").length == $('#filters > div > form > div > input').length);\r\n-        $('#checkAll').prop(\"checked\", check);\r\n+  $(\"#search\").keyup(() => {\r\n+    $(\"[data-brand]\").each(function (index) {\r\n+      if (\r\n+        $(this)\r\n+          .find(\".bottom .left .details h1\")\r\n+          .text()\r\n+          .toLowerCase()\r\n+          .indexOf($(\"#search\").val().toLowerCase()) > -1 ||\r\n+        $(this)\r\n+          .data(\"brand\")\r\n+          .toLowerCase()\r\n+          .indexOf($(\"#search\").val().toLowerCase()) > -1 ||\r\n+        $(this).attr(\"data-id\").indexOf($(\"#search\").val().toLowerCase()) > -1\r\n+      ) {\r\n+        $(this).show();\r\n+      } else {\r\n+        $(this).hide();\r\n+      }\r\n     });\r\n-\r\n-    $('#search').keyup(() => {\r\n-        $(\"[data-brand]\").each(function (index) {\r\n-            if ($(this).find('.bottom .left .details h1').text().toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).data('brand').toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).attr('data-id').indexOf($('#search').val().toLowerCase()) > -1) {\r\n-                $(this).show()\r\n-            } else {\r\n-                $(this).hide()\r\n-            }\r\n-        });\r\n-    })\r\n-\r\n+  });\r\n });\r\n \r\n-const victorinaForm = document.querySelector('#victorina')\r\n-const victorinaInput = document.querySelector('#victorinaInput')\r\n-const victorinaButton = document.querySelector('#victorinaButton')\r\n+const victorinaForm = document.querySelector(\"#victorina\");\r\n+const victorinaInput = document.querySelector(\"#victorinaInput\");\r\n+const victorinaButton = document.querySelector(\"#victorinaButton\");\r\n \r\n-fetch('./victorinaCodes.json')\r\n-    .then(response => {\r\n-        return response.json()\r\n-    })\r\n-    .then(victorinaData => {\r\n-        \r\n-    })\r\n+fetch(\"./victorinaCodes.json\")\r\n+  .then((response) => {\r\n+    return response.json();\r\n+  })\r\n+  .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n-        e.preventDefault()\r\n-        console.log(victorinaInput.value);\r\n-        victorinaInput.value = ''\r\n-    }\r\n-\r\n-\r\n-victorinaForm.addEventListener('submit', handleSubmit)\r\n-victorinaButton?.addEventListener(`click`, handleSubmit)\r\n+      e.preventDefault();\r\n+      console.log(victorinaInput.value);\r\n+      victorinaInput.value = \"\";\r\n+    };\r\n+    \r\n+    victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n+    victorinaButton?.addEventListener(`click`, handleSubmit);\r\n+  });\r\n"
+                },
+                {
+                    "date": 1686267806049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -240,8 +240,8 @@\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n       victorinaInput.value = \"\";\r\n     };\r\n-    \r\n+\r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n     victorinaButton?.addEventListener(`click`, handleSubmit);\r\n   });\r\n"
+                },
+                {
+                    "date": 1686267824885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,11 +235,13 @@\n   .then((response) => {\r\n     return response.json();\r\n   })\r\n   .then((victorinaData) => {\r\n+\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n+      \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686267824985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,8 +239,9 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n+\r\n       \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267830341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,10 +239,10 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n+        victorinaData.\r\n \r\n-      \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686267836668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-        victorinaData.\r\n+        victorinaData.for\r\n \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267842275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-        victorinaData.for\r\n+        victorinaData.forEaac\r\n \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267847470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-        victorinaData.forEaac\r\n+        victorinaData.forEach(el =>)\r\n \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267847581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,9 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-        victorinaData.forEach(el =>)\r\n+        victorinaData.forEach(el => )\r\n \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267853150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,9 +239,13 @@\n \r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-        victorinaData.forEach(el => )\r\n+        victorinaData.forEach(el => {\r\n+            if (e) {\r\n+                \r\n+            }\r\n+        })\r\n \r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267860468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -240,9 +240,9 @@\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n         victorinaData.forEach(el => {\r\n-            if (e) {\r\n+            if (el === v) {\r\n                 \r\n             }\r\n         })\r\n \r\n"
+                },
+                {
+                    "date": 1686267860594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -240,9 +240,9 @@\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n         victorinaData.forEach(el => {\r\n-            if (el === v) {\r\n+            if (el === vi) {\r\n                 \r\n             }\r\n         })\r\n \r\n"
+                },
+                {
+                    "date": 1686267872147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -240,10 +240,10 @@\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n         victorinaData.forEach(el => {\r\n-            if (el === vi) {\r\n-                \r\n+            if (el === victorinaInput.value) {\r\n+                l\r\n             }\r\n         })\r\n \r\n       victorinaInput.value = \"\";\r\n"
+                },
+                {
+                    "date": 1686267877357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,9 +241,9 @@\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n         victorinaData.forEach(el => {\r\n             if (el === victorinaInput.value) {\r\n-                l\r\n+                alert('Yo')\r\n             }\r\n         })\r\n \r\n       victorinaInput.value = \"\";\r\n"
+                },
+                {
+                    "date": 1686267882597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,9 +241,9 @@\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n         victorinaData.forEach(el => {\r\n             if (el === victorinaInput.value) {\r\n-                alert('Yo')\r\n+                alert('You are a qib')\r\n             }\r\n         })\r\n \r\n       victorinaInput.value = \"\";\r\n"
+                },
+                {
+                    "date": 1686267888362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,12 +241,11 @@\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n         victorinaData.forEach(el => {\r\n             if (el === victorinaInput.value) {\r\n-                alert('You are a qib')\r\n+                alert('You are a winner')\r\n             }\r\n         })\r\n-\r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686267944487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,17 +235,17 @@\n   .then((response) => {\r\n     return response.json();\r\n   })\r\n   .then((victorinaData) => {\r\n-\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-        victorinaData.forEach(el => {\r\n-            if (el === victorinaInput.value) {\r\n-                alert('You are a winner')\r\n-            }\r\n-        })\r\n+      victorinaData.forEach((el) => {\r\n+        if (el === victorinaInput.value) {\r\n+          alert(\"You are a winner\");\r\n+        }\r\n+        \r\n+      });\r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686267950037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -242,9 +242,11 @@\n       victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n-        \r\n+        else{\r\n+            alert('')\r\n+        }\r\n       });\r\n       victorinaInput.value = \"\";\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686267996402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,14 +238,14 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.forEach((el) => {\r\n+      victorinaData.e((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n-            alert('')\r\n+            alert('no')\r\n         }\r\n       });\r\n       victorinaInput.value = \"\";\r\n     };\r\n"
+                },
+                {
+                    "date": 1686267996526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,9 +238,9 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.e((el) => {\r\n+      victorinaData.eve((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n"
+                },
+                {
+                    "date": 1686268042473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,9 +238,9 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.eve((el) => {\r\n+      victorinaData.som((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n"
+                },
+                {
+                    "date": 1686268042591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,9 +238,9 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.som((el) => {\r\n+      victorinaData.so((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n"
+                },
+                {
+                    "date": 1686268047741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,9 +238,9 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.so((el) => {\r\n+      victorinaData.for((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n"
+                },
+                {
+                    "date": 1686268057513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,11 +238,12 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.for((el) => {\r\n+      victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n+          \r\n         }\r\n         else{\r\n             alert('no')\r\n         }\r\n"
+                },
+                {
+                    "date": 1686268062757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,9 +241,9 @@\n       console.log(victorinaInput.value);\r\n       victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n-          \r\n+\r\n         }\r\n         else{\r\n             alert('no')\r\n         }\r\n"
+                },
+                {
+                    "date": 1686268100050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,15 +241,14 @@\n       console.log(victorinaInput.value);\r\n       victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n-\r\n         }\r\n         else{\r\n             alert('no')\r\n         }\r\n+        victorinaInput.value = \"\";\r\n       });\r\n-      victorinaInput.value = \"\";\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n     victorinaButton?.addEventListener(`click`, handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686268100174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -244,10 +244,10 @@\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n             alert('no')\r\n+            victorinaInput.value = \"\";\r\n         }\r\n-        victorinaInput.value = \"\";\r\n       });\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686268105882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,12 +241,13 @@\n       console.log(victorinaInput.value);\r\n       victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n+          victorinaInput.value = \"\";\r\n         }\r\n         else{\r\n             alert('no')\r\n-            victorinaInput.value = \"\";\r\n+            \r\n         }\r\n       });\r\n     };\r\n \r\n"
+                },
+                {
+                    "date": 1686268111116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -242,13 +242,12 @@\n       victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n           victorinaInput.value = \"\";\r\n+        } else {\r\n+          alert(\"no\");\r\n+          victorinaInput.value = \"\";\r\n         }\r\n-        else{\r\n-            alert('no')\r\n-            \r\n-        }\r\n       });\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686268133829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -244,10 +244,10 @@\n           alert(\"You are a winner\");\r\n           victorinaInput.value = \"\";\r\n         } else {\r\n           alert(\"no\");\r\n-          victorinaInput.value = \"\";\r\n         }\r\n+        victorinaInput.value = \"\";\r\n       });\r\n     };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n"
+                },
+                {
+                    "date": 1686268140054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -245,11 +245,11 @@\n           victorinaInput.value = \"\";\r\n         } else {\r\n           alert(\"no\");\r\n         }\r\n-        victorinaInput.value = \"\";\r\n-      });\r\n-    };\r\n+    });\r\n+};\r\n+victorinaInput.value = \"\";\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n     victorinaButton?.addEventListener(`click`, handleSubmit);\r\n   });\r\n"
+                },
+                {
+                    "date": 1686268145277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,15 +241,16 @@\n       console.log(victorinaInput.value);\r\n       victorinaData.forEach((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n-          victorinaInput.value = \"\";\r\n-        } else {\r\n-          alert(\"no\");\r\n+          \r\n         }\r\n-    });\r\n-};\r\n-victorinaInput.value = \"\";\r\n+        else{\r\n+            alert('no')\r\n+        }\r\n+      });\r\n+      victorinaInput.value = \"\";\r\n+    };\r\n \r\n     victorinaForm.addEventListener(\"submit\", handleSubmit);\r\n     victorinaButton?.addEventListener(`click`, handleSubmit);\r\n   });\r\n"
+                },
+                {
+                    "date": 1686268164268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,12 +238,11 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.forEach((el) => {\r\n+      victorinaData.m((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n-          \r\n         }\r\n         else{\r\n             alert('no')\r\n         }\r\n"
+                },
+                {
+                    "date": 1686268164418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -238,9 +238,9 @@\n   .then((victorinaData) => {\r\n     let handleSubmit = (e) => {\r\n       e.preventDefault();\r\n       console.log(victorinaInput.value);\r\n-      victorinaData.ma((el) => {\r\n+      victorinaData.map((el) => {\r\n         if (el === victorinaInput.value) {\r\n           alert(\"You are a winner\");\r\n         }\r\n         else{\r\n"
+                },
+                {
+                    "date": 1686269503415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -229,9 +229,9 @@\n \r\n const victorinaForm = document.querySelector(\"#victorina\");\r\n const victorinaInput = document.querySelector(\"#victorinaInput\");\r\n const victorinaButton = document.querySelector(\"#victorinaButton\");\r\n-const p\r\n+const po\r\n fetch(\"./victorinaCodes.json\")\r\n   .then((response) => {\r\n     return response.json();\r\n   })\r\n"
+                }
+            ],
+            "date": 1686265262004,
+            "name": "Commit-0",
+            "content": "let menuIcon = document.querySelector('.menuIcon');\r\nlet nav = document.querySelector('.overlay-menu');\r\n\r\n\r\nmenuIcon.addEventListener('click', () => {\r\n    if (nav.style.transform != 'translateX(0%)') {\r\n        nav.style.transform = 'translateX(0%)';\r\n        nav.style.transition = 'transform 0.2s ease-out';\r\n    } else {\r\n        nav.style.transform = 'translateX(-100%)';\r\n        nav.style.transition = 'transform 0.2s ease-out';\r\n    }\r\n});\r\n\r\n\r\n// Toggle Menu Icon ========================================\r\nlet toggleIcon = document.querySelector('.menuIcon');\r\n\r\ntoggleIcon.addEventListener('click', () => {\r\n    if (toggleIcon.className != 'menuIcon toggle') {\r\n        toggleIcon.className += ' toggle';\r\n    } else {\r\n        toggleIcon.className = 'menuIcon';\r\n    }\r\n});\r\n\r\n$(function () {\r\n    window.addEventListener('scroll', () => {\r\n        if (document.querySelector('#header').getBoundingClientRect().bottom - document.querySelector('#header').scrollTop <= 0) {\r\n            $(\"#navbar\").addClass('navbarScrolled');\r\n        } else {\r\n            $(\"#navbar\").removeClass('navbarScrolled');\r\n        }\r\n    })\r\n\r\n    $('#menu li a').click(() => {\r\n        $(\".menuIcon.toggle\").click()\r\n    })\r\n\r\n    $('body').on('click', '.buy', function () {\r\n        $(this).parent().parent().addClass(\"clicked\");\r\n        if (localStorage.getItem('jianCart')) {\r\n            localStorage.setItem('jianCart', JSON.stringify(JSON.parse(localStorage.getItem('jianCart')).concat([$(this).parent().parent().parent().parent().data('id')])))\r\n        } else {\r\n            localStorage.setItem('jianCart', JSON.stringify([$(this).parent().parent().parent().parent().data('id')]))\r\n        }\r\n    });\r\n\r\n    $('#someProducts [data-id]').each(function (index) {\r\n        if (localStorage.getItem('jianCart') && JSON.parse(localStorage.getItem('jianCart')).includes($(this).data('id'))) {\r\n            $(this).find('.bottom').addClass('clicked')\r\n        }\r\n    })\r\n\r\n    $('body').on('click', '.remove', function () {\r\n        $(this).parent().parent().parent().removeClass(\"clicked\");\r\n        let arr = JSON.parse(localStorage.getItem('jianCart'))\r\n        arr.splice(arr.indexOf($(this).parent().parent().parent().parent().parent().data('id')), 1)\r\n        localStorage.setItem('jianCart', JSON.stringify(arr))\r\n        if (window.location.href.indexOf('cart') > -1) $(this).parent().parent().parent().parent().parent().hide()\r\n    });\r\n\r\n    let uniqueBrands = [];\r\n    fetch(\"./products.json\")\r\n        .then(response => {  \r\n            return response.json();\r\n        })\r\n        .then(jsondata => {\r\n            let content = ``\r\n            if (window.location.href.indexOf('cart') > -1) {\r\n                jsondata = jsondata.filter(e => JSON.parse(localStorage.getItem('jianCart')).includes(e.id))\r\n            }\r\n            jsondata.map(e => {\r\n                !uniqueBrands.includes(e.brand) ? uniqueBrands.push(e.brand) : ''\r\n                content += `\r\n                <div class=\"col-lg-3 col-md-4 col-sm-6 col-12 p-0\" data-id='${e.id}' data-brand=\"${e.brand}\">\r\n                    <div class=\"miniContainer p-0\">\r\n                        <div class=\"top\"\r\n                            style=\"background: url(img/${e.img}) no-repeat center center;\">\r\n                        </div>\r\n                        <div class=\"bottom ${localStorage.getItem('jianCart') && JSON.parse(localStorage.getItem('jianCart')).includes(e.id) ? 'clicked' : ''}\">\r\n                            <div class=\"left\">\r\n                                <div class=\"details\">\r\n                                    <h1>${e.title}</h1>\r\n                                    <p>3.800֏ - 13.000֏</p>\r\n                                </div>\r\n                                <div class=\"buy\"><i class=\"fa fa-cart-plus\"></i></div>\r\n                            </div>\r\n                            <div class=\"right\">\r\n                                <div class=\"w-50\">\r\n                                    <div class=\"done\"><i class=\"fa fa-check\"></i></div>\r\n                                    <div class=\"remove\"><i class=\"fa fa-times\"></i></div>\r\n                                </div>\r\n                                <div class=\"details\">\r\n                                    <h1>${e.title}</h1>\r\n                                    <p>3.800֏ - 13.000֏</p>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"inside\">\r\n                        <div class=\"icon\"><i class=\"fa fa-info-circle\"></i></div>\r\n                        <div class=\"contents\">\r\n                            <table>\r\n                                <tr>\r\n                                    <th>Brand</th>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td>${e.brand}</td>\r\n                                </tr>\r\n                                <tr>\r\n                                    <th>Չոր - 15ml/25ml/35ml</th>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td>3.800֏/6.000֏/7.500֏</td>\r\n                                </tr>\r\n                                <tr>\r\n                                    <th>Կաթնային 17ml/35ml/60ml</th>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td>4.000֏/8.000֏/13.000֏</td>\r\n                                </tr>\r\n                                <tr>\r\n                                    <th>ID</th>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td>${e.id}</td>\r\n                                </tr>\r\n                            </table>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                `\r\n            })\r\n            $('#products > div > div').html(content)\r\n            if(jsondata.length == 0){\r\n                $('#products > div > div').html(`<h1 class=\"py-5 text-center\">Cart is empty</h1>`) \r\n            }\r\n            content = ``\r\n            uniqueBrands.map(brand => {\r\n                content += `<div class=\"form-group col-lg-3 col-md-4 col-sm-6\">\r\n                                <input type=\"checkbox\" id=\"${brand}\" checked>\r\n                                <label for=\"${brand}\">${brand}</label>\r\n                            </div>`\r\n            })\r\n            $('#filters form').append(content)\r\n\r\n\r\n            return jsondata\r\n        });\r\n\r\n    $('#checkAll').click(function () {\r\n        $('#filters > div > form > div > input').prop('checked', this.checked);\r\n        if ($(this).filter(\":checked\").length) {\r\n            $(\"[data-brand]\").show()\r\n        } else {\r\n            $(\"[data-brand]\").hide()\r\n        }\r\n    });\r\n\r\n    $('body').on('change', '#filters > div > form > div > input', function () {\r\n        if ($(this).filter(\":checked\").length) {\r\n            $(`[data-brand=\"${$(this).parent().find(\"label\").text()}\"]`).show()\r\n        } else {\r\n            $(`[data-brand=\"${$(this).parent().find(\"label\").text()}\"]`).hide()\r\n        }\r\n        let check = ($('#filters > div > form > div > input').filter(\":checked\").length == $('#filters > div > form > div > input').length);\r\n        $('#checkAll').prop(\"checked\", check);\r\n    });\r\n\r\n    $('#search').keyup(() => {\r\n        $(\"[data-brand]\").each(function (index) {\r\n            if ($(this).find('.bottom .left .details h1').text().toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).data('brand').toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).attr('data-id').indexOf($('#search').val().toLowerCase()) > -1) {\r\n                $(this).show()\r\n            } else {\r\n                $(this).hide()\r\n            }\r\n        });\r\n    })\r\n\r\n});\r\n\r\nlet victorinaForm = document.querySelector('#victorina').elements\r\n// console.log(victorinaForm[0]);\r\nlet handleSubmit = (e) => {\r\n    console.log(victorinaForm[0].value);\r\n    \r\n}\r\n\r\nvictorinaForm[1].addEventListener('click', handleSubmit)\r\nvictorinaForm.addEventListener('submit', handleSubmit)\r\n"
+        }
+    ]
+}

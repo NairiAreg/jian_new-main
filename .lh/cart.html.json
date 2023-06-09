@@ -1,0 +1,162 @@
+{
+    "sourceFile": "cart.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 36,
+            "patches": [
+                {
+                    "date": 1686265166745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686265171890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,11 +62,12 @@\n         <div class=\"header\">\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n+\n+                <form action=\"\"></form>\n                 \n                 \n-                \n             </div>\n         </div>\n     </section>\n     \n"
+                },
+                {
+                    "date": 1686265177234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form action=\"\"></form>\n+                <form></form>\n                 \n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1686265183532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,11 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form></form>\n+                <form>\n+                    <input type=\"text\">\n+                </form>\n                 \n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1686265189451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,8 +65,9 @@\n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form>\n                     <input type=\"text\">\n+                    b\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686265195415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form>\n                     <input type=\"text\">\n-                    b\n+                    <button t></button>\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686265203452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,11 +63,11 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form>\n+                <form >\n                     <input type=\"text\">\n-                    <button t></button>\n+                    <button type=\"button\"></button>\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686265217957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form >\n+                <form id=\"v\">\n                     <input type=\"text\">\n                     <button type=\"button\"></button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686265223727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form id=\"v\">\n+                <form id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\"></button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686265233386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form id=\"victorina\">\n                     <input type=\"text\">\n-                    <button type=\"button\"></button>\n+                    <button type=\"button\">S</button>\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686266016883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,11 +63,11 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form id=\"victorina\">\n+                <form  id=\"victorina\">\n                     <input type=\"text\">\n-                    <button type=\"button\">S</button>\n+                    <button type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686266022148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form  id=\"victorina\">\n+                <form pr id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686266269257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form pr id=\"victorina\">\n+                <form  id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686266274957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form  id=\"victorina\">\n+                <form onsubmit=\"retu\" id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686266325961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form onsubmit=\"retu\" id=\"victorina\">\n+                <form onsubmit=\"return i\" id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686266331221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form onsubmit=\"return i\" id=\"victorina\">\n+                <form onsubmit=\"return n\" id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686266337909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form onsubmit=\"return n\" id=\"victorina\">\n+                <form onsubmit=\"return 0\" id=\"victorina\">\n                     <input type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n"
+                },
+                {
+                    "date": 1686266988813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,10 +63,10 @@\n             <div class=\"info\">\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n-                <form onsubmit=\"return 0\" id=\"victorina\">\n-                    <input type=\"text\">\n+                <form onsubmit=\"return false\" id=\"victorina\">\n+                    <input  type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n"
+                },
+                {
+                    "date": 1686266993958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form onsubmit=\"return false\" id=\"victorina\">\n-                    <input  type=\"text\">\n+                    <input id=\"i\" type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n"
+                },
+                {
+                    "date": 1686266999330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form onsubmit=\"return false\" id=\"victorina\">\n-                    <input id=\"i\" type=\"text\">\n+                    <input id=\"victorinaIno\" type=\"text\">\n                     <button type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n"
+                },
+                {
+                    "date": 1686267138503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,10 +64,10 @@\n                 \n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form onsubmit=\"return false\" id=\"victorina\">\n-                    <input id=\"victorinaIno\" type=\"text\">\n-                    <button type=\"button\">Submit</button>\n+                    <input id=\"victorinaInput\" type=\"text\">\n+                    <button  type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686267145200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form onsubmit=\"return false\" id=\"victorina\">\n                     <input id=\"victorinaInput\" type=\"text\">\n-                    <button  type=\"button\">Submit</button>\n+                    <button id=\"victorina\" type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n             </div>\n"
+                },
+                {
+                    "date": 1686269300296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,13 @@\n                 <h1>Jian-ը թևեր է տալիս</h1>\n \n                 <form onsubmit=\"return false\" id=\"victorina\">\n                     <input id=\"victorinaInput\" type=\"text\">\n-                    <button id=\"victorina\" type=\"button\">Submit</button>\n+                    <button id=\"victorinaButton\" type=\"button\">Submit</button>\n                 </form>\n                 \n                 \n+                \n             </div>\n         </div>\n     </section>\n     \n"
+                },
+                {
+                    "date": 1686269442985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,10 +68,17 @@\n                     <input id=\"victorinaInput\" type=\"text\">\n                     <button id=\"victorinaButton\" type=\"button\">Submit</button>\n                 </form>\n                 \n-                \n-                \n+                <div class=\"popup-container\" id=\"popupContainer\">\n+                    <div class=\"popup-content\">\n+                      <h3>This is a Popup!</h3>\n+                      <p>Hello, I'm a popup box.</p>\n+                      <a href=\"#\" class=\"close-button\" onclick=\"hidePopup()\">Close</a>\n+                    </div>\n+                  </div>\n+\n+\n             </div>\n         </div>\n     </section>\n     \n"
+                },
+                {
+                    "date": 1686269980480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    \n+    d\n     <section id=\"products\">\n         <div class=\"container\">\n             <div class=\"row justify-content-center\">\n                 <!-- JS APPEND -->\n"
+                },
+                {
+                    "date": 1686269991291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,11 @@\n \n             </div>\n         </div>\n     </section>\n-    d\n+    <div>\n+        \n+    </div>\n     <section id=\"products\">\n         <div class=\"container\">\n             <div class=\"row justify-content-center\">\n                 <!-- JS APPEND -->\n"
+                },
+                {
+                    "date": 1686269997188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,10 +80,10 @@\n \n             </div>\n         </div>\n     </section>\n-    <div>\n-        \n+    <div style=\"w\">\n+\n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n             <div class=\"row justify-content-center\">\n"
+                },
+                {
+                    "date": 1686270002243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    <div style=\"w\">\n+    <div style=\"width: 100%; \">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270007793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    <div style=\"width: 100%; \">\n+    <div style=\"width: 100%; h\">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270007815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    <div style=\"width: 100%; h\">\n+    <div style=\"width: 100%; he\">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270013217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    <div style=\"width: 100%; he\">\n+    <div style=\"width: 100%; height: 100%; \">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270020223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    <div style=\"width: 100%; height: 100%; \">\n+    <div  style=\"width: 100%; height: 100%; z-index: -9999;\">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270032897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \n             </div>\n         </div>\n     </section>\n-    <div  style=\"width: 100%; height: 100%; z-index: -9999;\">\n+    <div id=\"d\" style=\"width: 100%; height: 100%; z-index: -9999;\">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270049544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,8 @@\n \n             </div>\n         </div>\n     </section>\n-    <div id=\"d\" style=\"width: 100%; height: 100%; z-index: -9999;\">\n \n     </div>\n     <section id=\"products\">\n         <div class=\"container\">\n"
+                },
+                {
+                    "date": 1686270242747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n                 <div class=\"popup-container\" id=\"popupContainer\">\n                     <div class=\"popup-content\">\n                       <h3>This is a Popup!</h3>\n                       <p>Hello, I'm a popup box.</p>\n-                      <a href=\"#\" class=\"close-button\" onclick=\"hidePopup()\">Close</a>\n+                      <a href=\"#\" class=\"close-button\">Close</a>\n                     </div>\n                   </div>\n \n \n"
+                },
+                {
+                    "date": 1686270253457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n                 <div class=\"popup-container\" id=\"popupContainer\">\n                     <div class=\"popup-content\">\n                       <h3>This is a Popup!</h3>\n                       <p>Hello, I'm a popup box.</p>\n-                      <a href=\"#\" class=\"close-button\">Close</a>\n+                      < href=\"#\" class=\"close-button\">Close</>\n                     </div>\n                   </div>\n \n \n"
+                },
+                {
+                    "date": 1686270258807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n                 <div class=\"popup-container\" id=\"popupContainer\">\n                     <div class=\"popup-content\">\n                       <h3>This is a Popup!</h3>\n                       <p>Hello, I'm a popup box.</p>\n-                      < href=\"#\" class=\"close-button\">Close</>\n+                      <button href=\"# class=\"close-button\">Close</>\n                     </div>\n                   </div>\n \n \n"
+                }
+            ],
+            "date": 1686265166745,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"https://pro.fontawesome.com/releases/v5.10.0/css/all.css\"\n        integrity=\"sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p\" crossorigin=\"anonymous\" />\n\n    <link rel=\"stylesheet\" href=\"./css/main.css\">\n    <link rel=\"stylesheet\" href=\"./css/header.css\">\n    <link rel=\"stylesheet\" href=\"./css/about.css\">\n    <link rel=\"stylesheet\" href=\"./css/products.css\">\n    <title>Jian</title>\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"./img/logo.jpg\">\n</head>\n\n<body>\n\n    <header>\n        <nav id=\"navbar\" class=\"\">\n            <div class=\"nav-wrapper\">\n                <!-- Navbar Logo -->\n                <div class=\"logo\">\n                    <!-- Logo Placeholder for Inlustration -->\n                    <a href=\"/\" class=\"align-items-center d-flex\">\n                        <img src=\"./img/logo.jpg\" width=\"30\" class=\"me-2\">\n                        jian\n                    </a>\n                </div>\n\n                <!-- Navbar Links -->\n                <ul id=\"menu\">\n                    <li><a href=\"#about\">About</a></li>\n                    <li><a href=\"#someProducts\">Products</a></li>\n                    <li><a href=\"#contacts\">Contacts</a></li>\n                    <li><a href=\"cart.html\">Cart <i class=\"fas fa-shopping-cart\"></i></a></li>\n                </ul>\n            </div>\n        </nav>\n\n\n        <!-- Menu Icon -->\n        <div class=\"menuIcon\">\n            <span class=\"icon icon-bars\"></span>\n            <span class=\"icon icon-bars overlay\"></span>\n        </div>\n\n\n        <div class=\"overlay-menu\">\n            <ul id=\"menu\">\n                <li><a href=\"#about\">About</a></li>\n                <li><a href=\"#someProducts\">Products</a></li>\n                <li><a href=\"#contacts\">Contacts</a></li>\n                <li><a href=\"cart.html\">Cart <i class=\"fas fa-shopping-cart\"></i></a></li>\n            </ul>\n        </div>\n    </header>\n    <section id=\"header\">\n        <div class=\"header\">\n            <div class=\"info\">\n                \n                <h1>Jian-ը թևեր է տալիս</h1>\n                \n                \n                \n            </div>\n        </div>\n    </section>\n    \n    <section id=\"products\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center\">\n                <!-- JS APPEND -->\n            </div>\n        </div>\n    </section>\n    <footer class=\"footer-section mt-5\" id=\"contacts\">\n        <div class=\"container\">\n            <div class=\"footer-cta pt-5 pb-5\">\n                <div class=\"row\">\n                    <div class=\"col-xl-4 col-md-4 mb-30\">\n                        <div class=\"single-cta\">\n                            <i class=\"fas fa-map-marker-alt\"></i>\n                            <div class=\"cta-text\">\n                                <h4>Find us</h4>\n                                <span>Tigran Mets Ave. 16/10</span>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-xl-4 col-md-4 mb-30\">\n                        <div class=\"single-cta\">\n                            <i class=\"fas fa-phone\"></i>\n                            <div class=\"cta-text\">\n                                <h4>Call us</h4>\n                                <a href=\"tel:+374-43-433023\"><span>+374-43-433023</span></a>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-xl-4 col-md-4 mb-30\">\n                        <div class=\"single-cta\">\n                            <i class=\"far fa-envelope-open\"></i>\n                            <div class=\"cta-text\">\n                                <h4>Mail us</h4>\n                                <a href=\"mailto:cosmetics.jian@gmail.com\"><span>cosmetics.jian@gmail.com</span></a>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"copyright-area\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-xl-6 col-lg-6 text-center text-lg-left\">\n                        <div class=\"copyright-text\">\n                            <p>Copyright &copy; 2021, All Right Reserved <a\n                                    href=\"https://nairi-cv.netlify.app\">Nairi</a></p>\n                        </div>\n                    </div>\n                    <div class=\"col-xl-6 col-lg-6 d-none d-lg-block text-right\">\n                        <div class=\"footer-menu\">\n                            <ul>\n                                <li><a href=\"/\">Home</a></li>\n                                <li><a href=\"#about\">About</a></li>\n                                <li><a href=\"#someProducts\">Products</a></li>\n                                <li><a href=\"#contacts\">Contacts</a></li>\n                                <li><a href=\"cart.html\">Cart <i class=\"fas fa-shopping-cart\"></i></a></li>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </footer>\n    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"\n        integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js\"></script>\n    <script src=\"./js/script.js\"></script>\n</body>\n\n</html>"
+        }
+    ]
+}
