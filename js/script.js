@@ -232,6 +232,10 @@ const victorinaInput = document.querySelector("#victorinaInput");
 const victorinaButton = document.querySelector("#victorinaButton");
 const popUp = document.querySelector('.popup-container')
 const popUpCloseButton = document.querySelector('.close-button')
+const errorMessage = document.querySelector('.errorMessage')
+
+
+
 fetch("./victorinaCodes.json")
   .then((response) => {
     return response.json();
@@ -239,12 +243,28 @@ fetch("./victorinaCodes.json")
   .then((victorinaData) => {
     let handleSubmit = (e) => {
       e.preventDefault();
-      console.log(victorinaInput.value);
+      let number = Math.floor(Math.random() * (2) + 1)
         if (victorinaData.includes(victorinaInput.value)) {
             popUp.style.display = 'block'
+            popUpCloseButton.previousElementSibling.previousElementSibling.innerText = `Շնորհավորում ենք, ձեր ${victorinaInput.value} կտրոնը շահումով է`
+            if (number % 2 === 0) {
+              popUpCloseButton.previousElementSibling.innerText = `Դուք շահել եք 10% զեղչ`
+            }
+            else{
+              popUpCloseButton.previousElementSibling.innerText = `Դուք շահել եք 10մլ կաթնային օծանելիք`
+            }
+        }
+        else if(victorinaInput.value === ''){
+          errorMessage.style.display = 'block'
+          setTimeout(() => {
+          errorMessage.style.display = 'none'
+          }, 3000);
         }
         else{
-            alert('No')
+          errorMessage.style.display = 'block'
+          setTimeout(() => {
+          errorMessage.style.display = 'none'
+          }, 3000);
         }
       victorinaInput.value = "";
       popUpCloseButton.addEventListener('click', () => {
