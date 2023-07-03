@@ -116,7 +116,7 @@ $(function () {
                             <div class="left">
                                 <div class="details">
                                     <h1>${e.title}</h1>
-                                    <p>3.800֏ - 13.000֏</p>
+                                    <p>6.000֏ - 15.500֏</p>
                                 </div>
                                 <div class="buy"><i class="fa fa-cart-plus"></i></div>
                             </div>
@@ -127,7 +127,7 @@ $(function () {
                                 </div>
                                 <div class="details">
                                     <h1>${e.title}</h1>
-                                    <p>3.800֏ - 13.000֏</p>
+                                    <p>6.000֏ - 15.500֏</p>
                                 </div>
                             </div>
                         </div>
@@ -143,16 +143,16 @@ $(function () {
                                     <td>${e.brand}</td>
                                 </tr>
                                 <tr>
-                                    <th>Չոր - 15ml/25ml/35ml</th>
+                                    <th>Չոր - 25ml/35ml</th>
                                 </tr>
                                 <tr>
-                                    <td>3.800֏/6.000֏/7.500֏</td>
+                                    <td>7.000֏/8.000֏</td>
                                 </tr>
                                 <tr>
-                                    <th>Կաթնային 17ml/35ml/60ml</th>
+                                    <th>Կաթնային 20ml/35ml/60ml</th>
                                 </tr>
                                 <tr>
-                                    <td>4.000֏/8.000֏/13.000֏</td>
+                                    <td>6.000֏/9.000֏/15.500֏</td>
                                 </tr>
                                 <tr>
                                     <th>ID</th>

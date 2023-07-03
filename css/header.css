@@ -110,7 +110,6 @@ header #navbar li a {
 }
 
 header #navbar li a:hover {
-  /* border-bottom: 1px solid rgb(28, 121, 184); */
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
 }
